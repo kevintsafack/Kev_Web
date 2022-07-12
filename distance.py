@@ -1,8 +1,8 @@
 #calcul des distance parcourue
 
 from Filtrage import Completer
-import pyroutelib3 as pyroute
-from pyroute import Router #utilisé pour le calcul des distance
+#import pyroutelib3 as pyroute
+from pyroutelib3 import Router #utilisé pour le calcul des distance
 router = Router("car")
 
 class Distance(Completer) :
