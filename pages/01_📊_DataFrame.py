@@ -70,7 +70,7 @@ if selected == "Contact":
             time.sleep(0.00001)
             my_bar.progress(int((i+1)/len(r[0])*100))
             st.write("filename:", r[1][i])
-            #st.write(Distance(r[0][i]).CalculDeDistanceParJour()[1])
+            st.write(Distance(r[0][i]).CalculDeDistanceParJour()[1])
     except:
         st.write("Wait")
         
