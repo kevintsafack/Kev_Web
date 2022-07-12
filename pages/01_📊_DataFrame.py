@@ -5,7 +5,7 @@ import sys
 sys.path.append('C:/Users/TSAFACK_KevinHulric_/Desktop/kev/kev_1/')
 from dataset import *
 from Filtrage import *
-#from distance import *
+from distance import *
 #from dataset import DataSets
 import streamlit as st
 import pandas as pd
